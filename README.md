@@ -153,6 +153,14 @@ Authentication, Authorization, SQL, Async tasks, Unit Tests, Code Coverage.
 | [UserNotFoundError.java](./src/main/java/com/martincastroalvarez/london/errors/UserNotFoundError.java) | User not found. |
 | [JobNotFoundError.java](./src/main/java/com/martincastroalvarez/london/errors/JobNotFoundError.java) | Job not found. |
 
+#### Unit Tests
+| File | Description |
+| ---   | --- |
+| [PersonApiTests.java](./src/test/java/com/martincastroalvarez/london/PersonApiTests.java) | Testing the Person . |
+| [PersonControllerTests.java](./src/test/java/com/martincastroalvarez/london/PersonControllerTests.java) | Testing the Person controller. |
+| [PersonRepositoryTests.java](./src/test/java/com/martincastroalvarez/london/PersonRepositoryTests.java) | Testing the Person repository. |
+| [PersonServiceTests.java](./src/test/java/com/martincastroalvarez/london/PersonServiceTests.java) | Testing the Person service. |
+
 #### Utils
 | File | Description |
 | ---   | --- |
@@ -231,6 +239,7 @@ curl --cookie-jar "/tmp/london" -X POST -s http://localhost:8080/api/v1/signup/ 
 
 Authenticating using username and password:
 
+# TODO
 
 
 

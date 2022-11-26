@@ -1,5 +1,7 @@
 package com.martincastroalvarez.london;
 
+import java.util.List;
+
 import org.springframework.stereotype.Repository;
 
 import org.springframework.data.repository.CrudRepository;
@@ -16,6 +18,8 @@ public interface PersonRepository extends CrudRepository<Person, Long> {
     // methods for our data repository implemented, including findAll().
     // --------------------------------------------------------------------
     
+    List<Person> findAll();
+
     Page<Person> findAll(Pageable pageable);
 
     @Query("FROM Person p WHERE p.name LIKE CONCAT('%', :name, '%')")

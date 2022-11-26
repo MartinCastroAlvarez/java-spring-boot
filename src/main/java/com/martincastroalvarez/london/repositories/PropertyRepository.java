@@ -1,5 +1,7 @@
 package com.martincastroalvarez.london;
 
+import java.util.List;
+
 import org.springframework.stereotype.Repository;
 
 import org.springframework.data.repository.CrudRepository;
@@ -15,6 +17,8 @@ public interface PropertyRepository extends CrudRepository<Property, Long> {
     // By extending from the Spring CrudRepository, we will have some
     // methods for our data repository implemented, including findAll().
     // --------------------------------------------------------------------
+
+    List<Property> findAll();
 
     Page<Property> findAll(Pageable pageable);
 

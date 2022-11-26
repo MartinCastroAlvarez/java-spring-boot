@@ -1,5 +1,6 @@
 package com.martincastroalvarez.london;
 
+import java.util.List;
 import java.util.Date;
 
 import org.springframework.stereotype.Repository;
@@ -17,5 +18,7 @@ public interface JobRepository extends CrudRepository<Job, Long> {
     // methods for our data repository implemented, including findAll().
     // --------------------------------------------------------------------
     
+    List<Job> findAll();
+
     Page<Job> findAll(Pageable pageable);
 }
