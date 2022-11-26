@@ -1,0 +1,12 @@
+version: '3.2'
+services:
+
+  # PostgreSQL Service.
+  db:
+    image: 'postgres:14.1-alpine'
+    environment:
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: 'postgres'
+      POSTGRES_DB: 'postgres'
+    ports:
+      - '5432:5432'

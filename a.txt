@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.martincastroalvarez.london:london-app >--------------
+[INFO] Building london-app 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ london-app ---
+[INFO] argLine set to -javaagent:/home/martinalejandrocastroalvarez/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar=destfile=/home/martinalejandrocastroalvarez/spring/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ london-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ london-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 34 source files to /home/martinalejandrocastroalvarez/spring/target/classes
+[INFO] /home/martinalejandrocastroalvarez/spring/src/main/java/com/martincastroalvarez/london/controllers/RootController.java: /home/martinalejandrocastroalvarez/spring/src/main/java/com/martincastroalvarez/london/controllers/RootController.java uses unchecked or unsafe operations.
+[INFO] /home/martinalejandrocastroalvarez/spring/src/main/java/com/martincastroalvarez/london/controllers/RootController.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ london-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /home/martinalejandrocastroalvarez/spring/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ london-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/martinalejandrocastroalvarez/spring/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ london-app ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:report (report) @ london-app ---
+[INFO] Loading execution data file /home/martinalejandrocastroalvarez/spring/target/jacoco.exec
+[INFO] Analyzed bundle 'london-app' with 30 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.256 s
+[INFO] Finished at: 2022-11-26T02:25:26+01:00
+[INFO] ------------------------------------------------------------------------
