@@ -156,7 +156,7 @@ Authentication, Authorization, SQL, Async tasks, Unit Tests, Code Coverage.
 #### Unit Tests
 | File | Description |
 | ---   | --- |
-| [PersonApiTests.java](./src/test/java/com/martincastroalvarez/london/PersonApiTests.java) | Testing the Person . |
+| [PersonApiTests.java](./src/test/java/com/martincastroalvarez/london/PersonApiTests.java) | Testing the Person API. |
 | [PersonControllerTests.java](./src/test/java/com/martincastroalvarez/london/PersonControllerTests.java) | Testing the Person controller. |
 | [PersonRepositoryTests.java](./src/test/java/com/martincastroalvarez/london/PersonRepositoryTests.java) | Testing the Person repository. |
 | [PersonServiceTests.java](./src/test/java/com/martincastroalvarez/london/PersonServiceTests.java) | Testing the Person service. |
