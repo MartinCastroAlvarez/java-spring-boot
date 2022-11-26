@@ -26,6 +26,7 @@ Authentication, Authorization, SQL, Async tasks, Unit Tests, Code Coverage.
 - [Spring @Async Annotation for Asynchronous Processing](https://www.digitalocean.com/community/tutorials/spring-async-annotation)
 - [Introduction to Spring Testing](https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html)
 - [AssertJ Core](https://joel-costigliola.github.io/assertj/assertj-core-quick-start.html)
+- [How to configure maven surefire plugin work with JUnit 5](https://ahmadatwi.me/2018/08/16/tutorial-how-to-configure-maven-surefire-plugin-work-with-junit-5/)
 
 ## Data Model
 

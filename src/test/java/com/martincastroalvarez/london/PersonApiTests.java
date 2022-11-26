@@ -22,29 +22,23 @@ import org.springframework.test.web.servlet.MockMvc;
 @WebMvcTest(PersonController.class)
 public class PersonApiTests {
  
-  @MockBean
-  PersonService personService;
+    @MockBean
+    PersonService personService;
  
-  @Autowired
-  MockMvc mockMvc;
+    @Autowired
+    MockMvc mockMvc;
  
-  @Test
-  public void testfindAll() throws Exception {
-    Person person = new Person();
-    person.setName("C++");
-    List<Person> persons = Arrays.asList(person);
- 
-    Mockito.when(personService.list(
-        Optional.of(""),
-        Optional.of(""),
-        Optional.of(0),
-        Optional.of(0)
-    )).thenReturn(persons);
- 
-    mockMvc.perform(get("/api/v1/persons"))
-        .andExpect(status().isOk())
-        .andExpect(jsonPath("$", Matchers.hasSize(1)))
-        .andExpect(jsonPath("$[0].name", Matchers.is("C++")));
-  }
- 
+    @Test
+    public void testfindAll() throws Exception {
+        Person person = new Person();
+        person.setName("C++");
+        List<Person> persons = Arrays.asList(person);
+        Mockito.when(personService.list(
+            Optional.of(""), Optional.of(""), Optional.of(0), Optional.of(0)
+        )).thenReturn(persons);
+        mockMvc.perform(get("/api/v1/persons"))
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$", Matchers.hasSize(1)))
+            .andExpect(jsonPath("$[0].name", Matchers.is("C++")));
+    }
 }
