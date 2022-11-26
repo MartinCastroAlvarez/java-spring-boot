@@ -202,7 +202,7 @@ curl -s http://localhost:8080/actuator/health
 
 Running unit tests:
 ```bash
-./mvnw test
+./mvnw clean test
 ```
 
 Opening the Code Coverage HTML:

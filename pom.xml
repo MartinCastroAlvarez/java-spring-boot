@@ -146,6 +146,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
+                    <trimStackTrace>false</trimStackTrace>
+                    <useFile>false</useFile>
                     <includes>
                         <include>**/*Test.java</include>
                         <include>**/*Tests.java</include>
